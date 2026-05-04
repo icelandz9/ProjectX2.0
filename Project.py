@@ -9,9 +9,6 @@ import tkinter.messagebox as messagebox
 ctk.set_appearance_mode("System")  # ใช้ธีมตามระบบ (Dark/Light)
 ctk.set_default_color_theme("blue")  # สีหลักของปุ่มและ UI
 
-# ---------------------------------------------------------
-# ส่วนฟังก์ชันการคำนวณทางคณิตศาสตร์ (อ้างอิงจากโค้ดเดิม)
-# ---------------------------------------------------------
 z = sp.Symbol("z")
 
 def factorial(n):
